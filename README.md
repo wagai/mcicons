@@ -1,8 +1,8 @@
 # Mcicons
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mcicons`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem creates Mac's icons file from the png image.
 
-TODO: Delete this and the text above, and describe your gem
+[![image](https://i.gyazo.com/4a9510bfbd611b2fbaea1447c15003a5.png)](https://gyazo.com/4a9510bfbd611b2fbaea1447c15003a5)
 
 ## Installation
 
@@ -22,7 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+how to use:
+
+    $ mcicons -i /Your/images/file.png -o /Your/Existing_folder/name
+
+help:
+
+    $ mcicons -h
+
 
 ## Development
 
@@ -32,7 +39,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/mcicons.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Hirotacas/mcicons.
 
 ## License
 
