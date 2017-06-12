@@ -24,8 +24,11 @@ Or install it yourself as:
 
 how to use:
 
-    $ mcicons -i /Your/images/file.png -o /Your/Existing_folder/name
+    $ mcicons -i image_path -o output_icons_path
+    
+tutorial:    
 
+    $ mcicons -i /Your/images/file.png -o /Your/Existing_folder/name
 help:
 
     $ mcicons -h
