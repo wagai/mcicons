@@ -22,8 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-how to use:
+how to use (Default):    
 
+    $ mcicons -i image_path        // output icons file path is image file directory.
+
+how to use (Output path Option):    
+    
     $ mcicons -i image_path -o output_icons_path
     
 tutorial:    
