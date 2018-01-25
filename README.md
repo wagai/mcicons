@@ -6,6 +6,12 @@ This gem creates Mac's icons file from the png image.
 
 ## Installation
 
+using `imagemagick`
+
+```
+brew install imagemagick
+```
+
 Add this line to your application's Gemfile:
 
 ```ruby
