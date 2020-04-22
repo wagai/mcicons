@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "mcicons"
   spec.version       = Mcicons::VERSION
   spec.authors       = ["hirotaka"]
-  spec.email         = ["developer.hiro.east9.hey.world@gmail.com"]
+  spec.email         = ["hirotaka.wagai@gmail.com"]
 
   spec.summary       = %q{mcicons.}
   spec.description   = %q{Making Mac Icons File.}
@@ -24,8 +24,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.15"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler", "~> 2.1.4"
+  spec.add_development_dependency "rake", "~> 13.0.1"
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "mini_magick"
   spec.add_development_dependency "yard"
